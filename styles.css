@@ -1,0 +1,58 @@
+body {
+  font-size: 18px;
+  background-image: linear-gradient(#fc6c48 0%, #ef5081 100%);
+  box-sizing: border-box;
+}
+
+.all {
+  margin: 5% 25%;
+  background-color: #f4f7fc;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#Neu {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px dotted blue;
+}
+
+#button {
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(#fc6c48 0%, #ef5081 100%);
+}
+
+#scoreDiv {
+  visibility: hidden;
+  position: absolute;
+}
+
+#ToDo {
+  border: 1px solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  color: orange;
+}
+
+.two {
+  border: 1px solid;
+  border-radius: 10px;
+  color: green;
+}
+
+#Done {
+  border: 1px solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  color: #fc6c48;
+}
+
+#garbage {
+  border: 1px solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  color: #ef5081;
+}

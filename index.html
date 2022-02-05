@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo-Liste</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javaScript.js"></script>
+  </head>
+  <body>
+    <div class="all">
+      <p>
+        <span id="day"></span>
+        <span id="month"></span><span id="year"></span>
+      </p>
+      <input id="Neu" type="text" placeholder="What's next?" name="none" />
+      <button id="button" onclick="addToDo(), hider()">Hinzufügen</button>
+      <div class="one">
+        <ul id="ToDo">
+          <h2>ToDo</h2>
+          <br />
+        </ul>
+      </div>
+      <div class="two">
+        <div id="scoreDiv">
+          <h4>Noch zu erledigen:</h4>
+          <p id="score">0</p>
+        </div>
+        <p class="celebration">Time to chill! You have no todos :)</p>
+      </div>
+      <div class="three">
+        <ul id="Done">
+          <h2>Done</h2>
+        </ul>
+      </div>
+      <div class="four">
+        <ul id="garbage">
+          <h2>Deleted</h2>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
